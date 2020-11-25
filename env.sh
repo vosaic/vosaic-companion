@@ -7,29 +7,13 @@ export COMPANION_GOOGLE_SECRET="k4tEYCni5S289dU21H-WWOyc"
 export COMPANION_SECRET="shh!Issa Secret!"
 
 export COMPANION_AWS_USE_ACCELERATE_ENDPOINT="true"
-export COMPANION_AWS_BUCKET="d-uploadedvideos-staging"
 #export COMPANION_AWS_ENDPOINT="s3-accelerate.amazonaws.com"
 export COMPANION_AWS_REGION="us-east-1"
 
 export COMPANION_AWS_KEY="AKIAT45HWNXAA2GHM6NI"
 export COMPANION_AWS_SECRET="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"
-export COMPANION_DOMAIN="http://localhost:4200/"
+export COMPANION_DOMAIN="https://devcompanion.vosaic.com/"
 export COMPANION_AWS_BUCKET="d-uploadedvideos-staging"
-
-export COMPANION_AWS_KEY="AKIAT45HWNXAA2GHM6NI"
-export COMPANION_AWS_SECRET="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"
-export COMPANION_DOMAIN="http://localhost:4200/"
-export COMPANION_AWS_BUCKET="d-uploadedvideos-staging"
-
-export COMPANION_AWS_KEY="AKIAT45HWNXAA2GHM6NI"
-export COMPANION_AWS_SECRET="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"
-export COMPANION_DOMAIN="http://localhost:4200/"
-export COMPANION_AWS_BUCKET="s-uploadedvideos-staging"
-
-export COMPANION_AWS_KEY="AKIAT45HWNXAA2GHM6NI"
-export COMPANION_AWS_SECRET="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"
-export COMPANION_DOMAIN="http://localhost:4200/"
-export COMPANION_AWS_BUCKET="p-uploadedvideos-staging"
 
 #export COMPANION_AWS_REGION=""
 # Let's not set this by default, because that will make acceptance tests Always run on Saucelabs
