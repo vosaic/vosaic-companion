@@ -3,9 +3,9 @@
 
 env \
   COMPANION_DATADIR="./output" \
-  COMPANION_DOMAIN="localhost:3020" \
+  COMPANION_DOMAIN="devcompanion.vosaic.com" \
   COMPANION_PROTOCOL="http" \
-  COMPANION_PORT=3020 \
+  COMPANION_PORT=80 \
   COMPANION_CLIENT_ORIGINS="" \
   COMPANION_SECRET="development" \
 nodemon --watch packages/@uppy/companion/src --exec node ./packages/@uppy/companion/src/standalone/start-server.js
