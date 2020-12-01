@@ -2,16 +2,16 @@
 # So suitable for adding secret keys and such
 
 export NODE_ENV="${NODE_ENV:-development}"
-export COMPANION_GOOGLE_KEY="272836155010-k2p41ou880vv7tgtkecjkesqepbt6eq6.apps.googleusercontent.com"
-export COMPANION_GOOGLE_SECRET="k4tEYCni5S289dU21H-WWOyc"
+export COMPANION_GOOGLE_KEY="2"
+export COMPANION_GOOGLE_SECRET=""
 export COMPANION_SECRET="shh!Issa Secret!"
 
 export COMPANION_AWS_USE_ACCELERATE_ENDPOINT="true"
 #export COMPANION_AWS_ENDPOINT="s3-accelerate.amazonaws.com"
 export COMPANION_AWS_REGION="us-east-1"
 
-export COMPANION_AWS_KEY="AKIAT45HWNXAA2GHM6NI"
-export COMPANION_AWS_SECRET="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"
+export COMPANION_AWS_KEY=""
+export COMPANION_AWS_SECRET=""
 export COMPANION_DOMAIN="https://devcompanion.vosaic.com/"
 export COMPANION_AWS_BUCKET="d-uploadedvideos-staging"
 export COMPANION_PORT="443"
