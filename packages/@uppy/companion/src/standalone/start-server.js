@@ -4,6 +4,7 @@ const companion = require('../companion')
 const { version } = require('../../package.json')
 const { app } = require('.')
 const port = process.env.COMPANION_PORT || 3020
+console.log(`test env port :${process.env.COMPANION_PORT}`)
 
 companion.socket(app.listen(port))
 
