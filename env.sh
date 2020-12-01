@@ -14,6 +14,8 @@ export COMPANION_AWS_KEY="AKIAT45HWNXAA2GHM6NI"
 export COMPANION_AWS_SECRET="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"
 export COMPANION_DOMAIN="https://devcompanion.vosaic.com/"
 export COMPANION_AWS_BUCKET="d-uploadedvideos-staging"
+export COMPANION_PORT="443"
+export COMPANION_PROTOCOL="https"
 
 #export COMPANION_AWS_REGION=""
 # Let's not set this by default, because that will make acceptance tests Always run on Saucelabs
