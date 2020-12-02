@@ -21,6 +21,7 @@ const middlewares = require('./server/middlewares')
 const { shortenToken } = require('./server/Uploader')
 const { ProviderApiError, ProviderAuthError } = require('./server/provider/error')
 const ms = require('ms')
+const https = require('https')
 
 const defaultOptions = {
   server: {
@@ -131,6 +132,11 @@ module.exports.app = (options = {}) => {
   if (app.get('env') !== 'test') {
     jobs.startCleanUpJob(options.filePath)
   }
+
+  https.createServer({
+    key: fs.readFileSync('server.key'),
+    cert: fs.readFileSync('server.cert')
+  }, app)
 
   return app
 }
